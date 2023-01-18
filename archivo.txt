@@ -1,0 +1,8 @@
+[{'nombre': 'Maria',
+  'edad':28},
+  {'nombre': 'Hernan',
+  'edad':18},
+  {'nombre': 'Mariano',
+  'edad':17},
+  {'nombre': 'Nicolas',
+  'edad':20}]
