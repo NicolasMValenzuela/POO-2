@@ -1,3 +1,16 @@
+'''1. Crear la clase Persona con los métodos “set_nombre”, “set_edad”, “get_nombre”, “get_edad” y
+“print_persona”. Luego crear dos objetos del tipo Persona e imprimirlos.
+2. Agregarle a la clase anterior un constructor que reciba nombre y edad.
+3. Agregarle a la clase anterior un método “es_mayor_de_edad” que devuelva True o False.
+4. Agregarle un método “es_mayor_que” el cual recibe un objeto persona y compara su edad con la
+del objeto actual.
+5. Agregarle un método estático “get_mayor” que reciba dos objetos Persona y devuelva el de edad
+mayor.
+6. Agregar un método estático “dump_csv” que reciba el nombre de un archivo, una lista de
+personas y genere un archivo CSV separado por comas con los datos de cada persona.
+7. Agregar un método estático “load_csv” que reciba el nombre de un archivo y devuelva una lista
+de objetos Persona.'''
+
 class Persona:
     def __init__(self, nombre, edad):
         self.nombre = nombre
